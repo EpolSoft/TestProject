@@ -1,0 +1,5 @@
+ - install maven
+ - compile code (mvn clean install)
+ - fix bugs/issues
+ - run java -jar AppForm.jar
+ - follow the instruction 
