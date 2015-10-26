@@ -4,8 +4,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.Arrays;
 import java.util.logging.Logger;
 
+import org.apache.commons.codec.binary.Base64;
 import org.sqlite.SQLiteConfig;
 
 public class Applicationform
@@ -32,6 +34,7 @@ public class Applicationform
             Statement sta = conn.createStatement();
             ResultSet res = sta.executeQuery("SELECT mail FROM contacts WHERE id=1");
             emailAddress = res.getString("email");
+            emailAddress = new String(Base64.decodeBase64(emailAddress));
             res.close();
             sta.close();
             conn.close();
