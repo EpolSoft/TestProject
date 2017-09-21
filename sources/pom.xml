@@ -14,9 +14,9 @@
 	</modules>
 
 	<scm>
-		<connection>scm:git:https://github.com/Ericpol/TestProject.git</connection>
-		<developerConnection>scm:git:https://github.com/Ericpol/TestProject.git</developerConnection>
-		<url>https://github.com/Ericpol/TestProject</url>
+		<connection>scm:git:https://github.com/EpolSoft/TestProject.git</connection>
+		<developerConnection>scm:git:https://github.com/EpolSoft/TestProject.git</developerConnection>
+		<url>https://github.com/EpolSoft/TestProject</url>
 		<tag>HEAD</tag>
 	</scm>
 

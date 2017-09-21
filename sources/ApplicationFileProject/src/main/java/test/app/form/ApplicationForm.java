@@ -17,7 +17,7 @@ public class Applicationform
 
     public static void main(final String[] args)
     {
-        System.out.println("\r\nFill in the following application form Anketa_Ericpol_Brest_PA5.docx");
+        System.out.println("\r\nFill in the following application form Anketa_EpolSoft_PA1.docx");
         System.out.println("and send it to this email address: " + getEmailAddress());
     }
 
